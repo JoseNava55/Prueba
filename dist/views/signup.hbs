@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+      <div class="card mt-4 text-center">
+        <div class="card-header">
+          <h3>Registro Usuario</h3>
+        </div>
+        <div class="card-body">
+          <form action="/signup" method="POST">
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email" class="form-control mb-3">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" placeholder="Password" class="form-control mb-3">
+            </div>
+            <div class="form-group">
+              <input type="telefono" name="telefono" placeholder="Telefono" class="form-control mb-3">
+            </div>
+            <div class="form-group">
+              <input type="nombre" name="nombre" placeholder="Nombre" class="form-control mb-3">
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button type="submit" class="btn btn-success mb-3" class="fal fa-user-plus">Registrar</button>
+              
+            </div>    
+          </form>
+          </div>
+      <p class="text-center">Ya tienes una cuenta?
+        <a href="/signin" class="text-info">Inicia seccion</a></p>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
