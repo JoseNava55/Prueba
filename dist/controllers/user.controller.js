@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.signup = exports.signin = exports.renderSigninForm = exports.renderSignUpForm = exports.logout = void 0;
 
-var _User = _interopRequireDefault(require("../models/User.js"));
+var _User = _interopRequireDefault(require("../models/user.js"));
 
 var _passport = _interopRequireDefault(require("passport"));
 
